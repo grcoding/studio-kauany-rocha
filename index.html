@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><div Kauany="" Rocha="" Studio=""></div> | Studio Nails & Estética de Alto Padrão</title>
+  <meta name="description" content="Especialista em Alongamento em Fibra de Vidro, Gel Moldado, Blindagem e Nail Art com acabamento refinado e biossegurança.">
+  
+  <!-- Fontes Google: Cormorant Garamond (Editorial) + Plus Jakarta Sans (iOS Style) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body class="mesh-bg">
+
+  <!-- Dynamic Island / Floating Glass Navbar -->
+  <header class="navbar-wrapper">
+    <nav class="glass-panel nav-island">
+      <a href="#hero" class="brand-logo">Kauany Rocha Studio</a>
+      
+      <ul class="nav-links">
+        <li><a href="#sobre">Especialista</a></li>
+        <li><a href="#servicos">Procedimentos</a></li>
+        <li><a href="#agendamento">Agendar</a></li>
+        <li><a href="#galeria">Formatos</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+        
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#agendamento" class="btn btn-primary glass-btn-primary">Agendar Horário</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="glass-sheet-mobile" id="mobileMenu">
+    <button class="close-mobile-btn" id="closeMobileMenu">&times;</button>
+    <ul class="mobile-nav-links">
+      <li><a href="#sobre" class="mobile-link">A Especialista</a></li>
+      <li><a href="#servicos" class="mobile-link">Procedimentos</a></li>
+      <li><a href="#agendamento" class="mobile-link">Agendamento Online</a></li>
+      <li><a href="#galeria" class="mobile-link">Formatos & Artes</a></li>
+      <li><a href="#faq" class="mobile-link">Perguntas Frequentes</a></li>
+      <li><a href="bio.html" class="mobile-link">Página Link na Bio</a></li>
+    </ul>
+    <div class="mobile-sheet-footer">
+      <a href="https://instagram.com/studio_kauanyrocha" target="_blank" rel="noopener noreferrer" class="btn btn-glass">Instagram @seu.perfil</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="pill-badge glass-pill">
+            <span class="status-indicator"></span> Biossegurança & Excelência em Cada Detalhe
+          </div>
+          <h1 class="hero-title">A elegância e a precisão do design de luxo em suas mãos.</h1>
+          <p class="hero-description">
+            Especialista em naturalidade, curvatura slim e durabilidade. Procedimentos pensados sob medida para valorizar sua autenticidade.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#agendamento" class="btn btn-primary glass-btn-primary">Agendar Meu Horário</a>
+            <a href="#servicos" class="btn btn-secondary glass-btn">Ver Técnicas</a>
+          </div>
+        </div>
+
+        <div class="hero-card-preview">
+          <div class="glass-panel preview-widget">
+            <div class="widget-header">
+              <span class="widget-dot"></span>
+              <span class="widget-title">Destaque da Semana</span>
+            </div>
+            <div class="widget-body">
+              <h3>Fibra de Vidro Slim</h3>
+              <p>Acabamento imperceptível e estruturado com alta aderência.</p>
+              <div class="widget-tags">
+                <span class="tag">Curvatura C</span>
+                <span class="tag">Resistência</span>
+                <span class="tag">Zero Quebras</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre a Especialista -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="glass-panel about-grid">
+          <div class="about-image-wrapper">
+            <div class="profile-frame">
+              <div class="profile-placeholder">
+                <img src="src/foto-kauany.jpeg" alt="Foto Profissional">
+              </div>
+            </div>
+          </div>
+          <div class="about-text">
+            <div class="pill-badge glass-pill">Sobre a Profissional</div>
+            <h2 class="section-title">Kauany Rocha</h2>
+            <p class="highlight-p">
+              Dedicada a transformar o cuidado com as unhas em um ritual de bem-estar e sofisticação.
+            </p>
+            <p>
+              Com formações avançadas nas técnicas europeias e russas de manicure, meu trabalho alia a estética refinada à saúde da sua lâmina natural, utilizando instrumentais 100% esterilizados em autoclave hospitalar.
+            </p>
+            <div class="stats-grid">
+              <div class="stat-card">
+                <h4>+5</h4>
+                <p>Anos de Experiência</p>
+              </div>
+              <div class="stat-card">
+                <h4>100%</h4>
+                <p>Grau Cirúrgico</p>
+              </div>
+              <div class="stat-card">
+                <h4>+2.000</h4>
+                <p>Unhas Transformadas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catálogo de Serviços -->
+    <section id="servicos" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="pill-badge glass-pill">Menu de Procedimentos</div>
+          <h2 class="section-title">Nossas Especialidades</h2>
+          <p class="section-subtitle">Escolha o procedimento ideal para a rotina e o estilo que você busca.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1 -->
+          <article class="glass-panel service-card">
+            <div class="service-icon">✦</div>
+            <h3>Alongamento em Fibra de Vidro</h3>
+            <p>Leveza e naturalidade com máxima durabilidade, respeitando o crescimento natural.</p>
+            <div class="service-meta">
+              <span>⏱ ~2h30</span>
+              <span>Refinamento Slim</span>
+            </div>
+            <a href="https://wa.me/556291686474?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20Alongamento%20em%20Fibra%20de%20Vidro." target="_blank" rel="noopener noreferrer" class="btn btn-sm glass-btn">Agendar Este</a>
+          </article>
+
+          <!-- 2 -->
+          <article class="glass-panel service-card">
+            <div class="service-icon">✦</div>
+            <h3>Alongamento em Gel Moldado / Tips</h3>
+            <p>Construção anatômica perfeita para formatos estruturados e alta durabilidade.</p>
+            <div class="service-meta">
+              <span>⏱ ~2h15</span>
+              <span>Alta Resistência</span>
+            </div>
+            <a href="https://wa.me/556291686474?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20Alongamento%20em%20Gel%20Moldado." target="_blank" rel="noopener noreferrer" class="btn btn-sm glass-btn">Agendar Este</a>
+          </article>
+
+          <!-- 3 -->
+          <article class="glass-panel service-card">
+            <div class="service-icon">✦</div>
+            <h3>Banho de Gel / Blindagem Diamante</h3>
+            <p>Camada protetora sobre a unha natural para evitar quebras, lascas e descamações.</p>
+            <div class="service-meta">
+              <span>⏱ ~1h30</span>
+              <span>Fortalecimento</span>
+            </div>
+            <a href="https://wa.me/556291686474?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20Banho%20de%20Gel%20ou%20Blindagem." target="_blank" rel="noopener noreferrer" class="btn btn-sm glass-btn">Agendar Este</a>
+          </article>
+
+          <!-- 4 -->
+          <article class="glass-panel service-card">
+            <div class="service-icon">✦</div>
+            <h3>Esmaltação em Gel</h3>
+            <p>Cor intacta, brilho espelhado e secagem instantânea por 15 a 21 dias contínuos.</p>
+            <div class="service-meta">
+              <span>⏱ ~1h15</span>
+              <span>Brilho Espelhado</span>
+            </div>
+            <a href="https://wa.me/556291686474?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20Esmalta%C3%A7%C3%A3o%20em%20Gel." target="_blank" rel="noopener noreferrer" class="btn btn-sm glass-btn">Agendar Este</a>
+          </article>
+
+          <!-- 5 -->
+          <article class="glass-panel service-card">
+            <div class="service-icon">✦</div>
+            <h3>Nail Art & Decorações Exclusivas</h3>
+            <p>Francesa reversa, babyboomer, encapsuladas sofisticadas e detalhes joia em alto relevo.</p>
+            <div class="service-meta">
+              <span>⏱ Adicional</span>
+              <span>Arte Autoral</span>
+            </div>
+            <a href="https://wa.me/556291686474?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20com%20Nail%20Art%20Exclusiva." target="_blank" rel="noopener noreferrer" class="btn btn-sm glass-btn">Agendar Este</a>
+          </article>
+
+          <!-- 6 -->
+          <article class="glass-panel service-card">
+            <div class="service-icon">✦</div>
+            <h3>Manicure & Spa dos Pés</h3>
+            <p>Cutilagem combinada, hidratação profunda, esfoliação suave e alívio de tensões.</p>
+            <div class="service-meta">
+              <span>⏱ ~1h30</span>
+              <span>Renovação Total</span>
+            </div>
+            <a href="https://wa.me/556291686474?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20Manicure%20e%20Spa%20dos%20P%C3%A9s." target="_blank" rel="noopener noreferrer" class="btn btn-sm glass-btn">Agendar Este</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Agendamento Interativo com Calendário -->
+    <section id="agendamento" class="section">
+      <div class="container">
+        <div class="glass-panel booking-container">
+          <div class="booking-header text-center">
+            <div class="pill-badge glass-pill">Agendamento Inteligente</div>
+            <h2 class="section-title">Reserve Seu Horário</h2>
+            <p class="section-subtitle">Selecione o procedimento, a data ideal e confirme diretamente no WhatsApp.</p>
+          </div>
+
+          <form id="bookingForm" class="booking-form" novalidate>
+            <div class="form-grid">
+              
+              <!-- Etapa 1: Dados & Procedimento -->
+              <div class="form-step">
+                <h3 class="step-title"><span class="step-num">1</span> Seus Dados & Escolha</h3>
+                
+                <div class="input-group">
+                  <label for="clientName">Seu Nome Completo</label>
+                  <input type="text" id="clientName" class="glass-input" placeholder="Ex: Grazielly Pereira" required>
+                </div>
+
+                <div class="input-group">
+                  <label for="clientPhone">WhatsApp / Telefone</label>
+                  <input type="tel" id="clientPhone" class="glass-input" placeholder="(00) 00000-0000" required>
+                </div>
+
+                <div class="input-group">
+                  <label for="serviceSelect">Procedimento Desejado</label>
+                  <select id="serviceSelect" class="glass-input glass-select" required>
+                    <option value="" disabled selected>Selecione um procedimento...</option>
+                    <option value="Alongamento em Fibra de Vidro">Alongamento em Fibra de Vidro</option>
+                    <option value="Alongamento em Gel Moldado">Alongamento em Gel Moldado / Tips</option>
+                    <option value="Banho de Gel / Blindagem">Banho de Gel / Blindagem Diamante</option>
+                    <option value="Esmaltação em Gel">Esmaltação em Gel</option>
+                    <option value="Nail Art & Decoração Exclusiva">Nail Art & Decoração Exclusiva</option>
+                    <option value="Manicure & Spa dos Pés">Manicure & Spa dos Pés</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Etapa 2: Calendário Interativo -->
+              <div class="form-step">
+                <h3 class="step-title"><span class="step-num">2</span> Escolha o Dia</h3>
+                <div class="calendar-widget glass-panel-inner">
+                  <div class="calendar-header">
+                    <button type="button" id="prevMonthBtn" class="cal-nav-btn" aria-label="Mês Anterior">&lsaquo;</button>
+                    <h4 id="monthYearLabel" class="current-month-label">Carregando...</h4>
+                    <button type="button" id="nextMonthBtn" class="cal-nav-btn" aria-label="Próximo Mês">&rsaquo;</button>
+                  </div>
+                  
+                  <div class="calendar-weekdays">
+                    <span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span>
+                  </div>
+                  <div id="calendarDays" class="calendar-days-grid">
+                    <!-- Dias gerados via JS -->
+                  </div>
+                </div>
+                <input type="hidden" id="selectedDate" name="selectedDate">
+                <p id="dateStatus" class="field-feedback">Nenhum dia selecionado.</p>
+              </div>
+
+              <!-- Etapa 3: Time Slots -->
+              <div class="form-step">
+                <h3 class="step-title"><span class="step-num">3</span> Horário Sugerido</h3>
+                <div class="time-slots-grid" id="timeSlotsContainer">
+                  <button type="button" class="time-slot-btn" data-time="09:00">09:00</button>
+                  <button type="button" class="time-slot-btn" data-time="10:30">10:30</button>
+                  <button type="button" class="time-slot-btn" data-time="13:30">13:30</button>
+                  <button type="button" class="time-slot-btn" data-time="15:00">15:00</button>
+                  <button type="button" class="time-slot-btn" data-time="16:30">16:30</button>
+                  <button type="button" class="time-slot-btn" data-time="18:00">18:00</button>
+                </div>
+                <input type="hidden" id="selectedTime" name="selectedTime">
+                <p id="timeStatus" class="field-feedback">Nenhum horário selecionado.</p>
+              </div>
+
+            </div>
+
+            <!-- Botão de Ação -->
+            <div class="booking-footer text-center">
+              <button type="submit" class="btn btn-primary glass-btn-primary btn-cta-large">
+                Confirmar e Enviar via WhatsApp <span>→</span>
+              </button>
+              <p class="privacy-note">Seus dados são protegidos e enviados diretamente para o chat oficial do Studio.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria de Formatos e Inspirações -->
+    <section id="galeria" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="pill-badge glass-pill">Mostruário de Formatos</div>
+          <h2 class="section-title">Anatomias & Estilos</h2>
+          <p class="section-subtitle">Qual formato expressa melhor a sua personalidade?</p>
+        </div>
+
+        <div class="formats-grid">
+          <div class="glass-panel format-card">
+            <h4>Almond</h4>
+            <p>Elegante, alonga os dedos e proporciona alta resistência mecânica contra impactos diários.</p>
+          </div>
+          <div class="glass-panel format-card">
+            <h4>Quadrada Clássica</h4>
+            <p>Bordas retas e estruturadas, mantendo a simetria marcante e visual impecável.</p>
+          </div>
+          <div class="glass-panel format-card">
+            <h4>Ballerina / Coffin</h4>
+            <p>Formato afilado com pontas suavemente quadradas, visual sofisticado e moderno.</p>
+          </div>
+          <div class="glass-panel format-card">
+            <h4>Stiletto</h4>
+            <p>Ponta afunilada ousada, ideal para composições impactantes e unhas longas de destaque.</p>
+          </div>
+        </div>
+
+        <div class="text-center cta-insta-box">
+          <a href="https://instagram.com/studio_kauanyrocha" target="_blank" rel="noopener noreferrer" class="btn btn-secondary glass-btn">
+            Ver Fotos Reais no Instagram @studio_kauanyrocha ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos (Widgets iOS) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="pill-badge glass-pill">Depoimentos</div>
+          <h2 class="section-title">Experiência das Clientes</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="glass-panel testimonial-widget">
+            <div class="stars">★★★★★</div>
+            <p>"A delicadeza do acabamento me surpreendeu. A fibra é tão fininha que todo mundo acha que são minhas unhas naturais!"</p>
+            <span class="client-author">— Mariana R., Cliente há 2 anos</span>
+          </div>
+          <div class="glass-panel testimonial-widget">
+            <div class="stars">★★★★★</div>
+            <p>"Espaço acolhedor, materiais lacrados abertos na minha frente e um atendimento impecável. Não troco por nada."</p>
+            <span class="client-author">— Camila F., Cliente Mensal</span>
+          </div>
+          <div class="glass-panel testimonial-widget">
+            <div class="stars">★★★★★</div>
+            <p>"Minha blindagem dura quase um mês sem uma única lasca. Profissional com técnica e paciência exemplar."</p>
+            <span class="client-author">— Beatriz S., Cliente Fiel</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion (iOS Settings Style) -->
+    <section id="faq" class="section">
+      <div class="container faq-container">
+        <div class="section-header text-center">
+          <div class="pill-badge glass-pill">Tire Suas Dúvidas</div>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+        </div>
+
+        <div class="glass-panel faq-list">
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>De quanto em quanto tempo devo fazer a manutenção?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>O tempo recomendado para manutenção em Fibra de Vidro ou Gel é de 20 a 25 dias, garantindo a integridade da lâmina natural e o equilíbrio do ápice da estrutura.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>O alongamento enfraquece a unha natural?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Não. O que danifica as unhas é a remoção incorreta (como arrancar com os dentes) ou preparo agressivo. Com nosso protocolo seguro e materiais de alto padrão, sua unha permanece saudável por baixo do produto.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Posso fazer tarefas domésticas normalmente?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sim! A estrutura é altamente resistente. Apenas recomendamos o uso de luvas ao manusear produtos químicos fortes (água sanitária, solventes) para preservar o brilho e a durabilidade do gel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Action Button WhatsApp -->
+  <a href="https://wa.me/556291686474"?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20Studio." class="fab-whatsapp glass-fab" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+    💬
+  </a>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h3>Kauany Rocha Studio</h3>
+        <p>Especialista em Nail Design, estética e bem-estar feminino de alto padrão.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Horários de Atendimento</h4>
+        <p>A agendar!</p>
+      </div>
+      <div class="footer-col">
+        <h4>Endereço & Contato</h4> Kauany rocha Studio 
+Rua Benedito b Toledo qd7 lot 4  <br>Setor Central<br>WhatsApp: 55 62 9168-6474 </p>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; <span id="currentYear"></span> [Kauany Rocha Studio]. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="src/script.js"></script>
+</body>
+</html>
